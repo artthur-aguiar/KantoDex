@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32"  href="/favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" sizes="96x96"  href="/favicons/apple-touch-icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script defer src="./js/script.js"></script>
+
+    <title>Pokedex</title>
+    
+</head>
+<body>
+    <main>
+        <img src="#" alt="pokemon" class="img-pokemon">
+
+        <div class="div-dark">
+            <button class="botao-dark"></button>
+            <span class="text-dark"> DarkMode: Off </span>
+        </div>
+        
+        <div class="btn-setas">
+            <button class="button btn-antes"> &lt; </button>
+            <button class="button btn-depois"> &gt; </button>
+        </div>
+
+        <form class="busca">
+            <input 
+            type="search"
+            class="input-busca"
+            placeholder="Insira o ID ou Nome"
+            required/>
+        </form>
+
+        <div class="basePokemon">
+            <div name ="types" id="types">
+                <p><strong> Type: </strong></p>
+                <img src="" id= "typesUm">
+                <img src="" id= "typesDois">
+            </div>
+            <p><strong> Stats: </strong></p>
+            <div id ="statsPokemon">
+                <p id ="hp"></p>
+                <p id ="atk"></p></p>
+                <p id ="def"></p></p>
+                <p id ="spatk"></p></p>
+                <p id ="spdef"></p></p>
+                <p id ="spd"></p></p>
+            </div>
+              
+        </div>
+        
+        <h1 class="dados-pokemon">
+            <span class="num-pokemon"></span> -
+            <span class="nome-pokemon"></span>
+        </h1>
+
+        <img src="/images/pokedex.png" alt="pokedex" id="pokedex">
+    </main>
+</body>
+</html>

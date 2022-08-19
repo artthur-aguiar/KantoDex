@@ -1,0 +1,43 @@
+header{
+    position: fixed;
+    left: 25%;
+    right: 0%;
+    top: 4%;
+}
+  
+a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+a:hover {
+    opacity: 0.7;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    height: 12vmin;
+    width: 64%;
+    
+  }
+  
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    font-size: clamp(8px, 5vw, 20px);
+  }
+  
+
+  
+  
