@@ -23,7 +23,7 @@
 Desenvolvimento proposto para conclusão e certificação no projeto de formação de desenvolvedores Front-End
 </h4>
 <p>
-A finalidade da aplicação é realizar requisições HTTP em API, e retornar os dados solicitados renderizando na tela de acrodo com o solicitado.
+A finalidade da aplicação é realizar requisições HTTP em API, e retornar os dados solicitados renderizando na tela de acordo com o solicitado.
 Voltado a temática <i>'Pokémon'</i>, a aplicação deve realizar a busca ao informar o ID ou Nome do mesmo, trazendo junto as estatísticas e tipologia.
 Simulando o comportamento de uma <i>'Pokedéx'</i>, assim como visto na franquia de animes e jogos.
 </p>
